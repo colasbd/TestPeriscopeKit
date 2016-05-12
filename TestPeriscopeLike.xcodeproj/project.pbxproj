@@ -19,6 +19,7 @@
 		CE6933DD1CE4F098005ABDD5 /* heart-particle.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6933D91CE4F098005ABDD5 /* heart-particle.png */; };
 		CE6933DE1CE4F098005ABDD5 /* heart-particle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6933DA1CE4F098005ABDD5 /* heart-particle@2x.png */; };
 		CE6933DF1CE4F098005ABDD5 /* heart-particle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6933DB1CE4F098005ABDD5 /* heart-particle@3x.png */; };
+		CE6934231CE500AF005ABDD5 /* cat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6934221CE500AF005ABDD5 /* cat3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		CE6933D91CE4F098005ABDD5 /* heart-particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-particle.png"; sourceTree = "<group>"; };
 		CE6933DA1CE4F098005ABDD5 /* heart-particle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-particle@2x.png"; sourceTree = "<group>"; };
 		CE6933DB1CE4F098005ABDD5 /* heart-particle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-particle@3x.png"; sourceTree = "<group>"; };
+		CE6934221CE500AF005ABDD5 /* cat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		CE6933A41CE4EE56005ABDD5 /* TestPeriscopeLike */ = {
 			isa = PBXGroup;
 			children = (
+				CE6934221CE500AF005ABDD5 /* cat3.jpg */,
 				CE6933D81CE4F098005ABDD5 /* heart-bubbles.sks */,
 				CE6933D91CE4F098005ABDD5 /* heart-particle.png */,
 				CE6933DA1CE4F098005ABDD5 /* heart-particle@2x.png */,
@@ -257,6 +260,7 @@
 			files = (
 				CE6933DC1CE4F098005ABDD5 /* heart-bubbles.sks in Resources */,
 				CE6933DD1CE4F098005ABDD5 /* heart-particle.png in Resources */,
+				CE6934231CE500AF005ABDD5 /* cat3.jpg in Resources */,
 				CE6933B51CE4EE56005ABDD5 /* LaunchScreen.storyboard in Resources */,
 				CE6933DF1CE4F098005ABDD5 /* heart-particle@3x.png in Resources */,
 				CE6933DE1CE4F098005ABDD5 /* heart-particle@2x.png in Resources */,

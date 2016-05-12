@@ -47,9 +47,9 @@ static CGFloat const kHeight = 18.0f;
 
 
 @interface ViewController ()
-
 @property (weak, nonatomic) IBOutlet SKView *heartBubbleView;
 @property (nonatomic, strong, readwrite) CBDHeartBubbleScene *heartBubblesScene;
+
 
 @end
 
@@ -59,7 +59,11 @@ static CGFloat const kHeight = 18.0f;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.heartBubblesScene = [[CBDHeartBubbleScene alloc] init];
+    self.heartBubblesScene = [[CBDHeartBubbleScene alloc] init];//WithSize:self.heartBubbleView.frame.size];
+    [self.heartBubblesScene setScaleMode:SKSceneScaleModeAspectFit];
+    self.heartBubblesScene.backgroundColor = [UIColor clearColor];
+    
+    self.heartBubbleView.allowsTransparency = YES;
     
     [self.heartBubbleView presentScene:self.heartBubblesScene];
 }
@@ -69,6 +73,11 @@ static CGFloat const kHeight = 18.0f;
     // Dispose of any resources that can be recreated.
 }
 
+
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+//{
+//    [self.heartBubblesScene beginBubbling];
+//}
 
 - (IBAction)action:(id)sender
 {

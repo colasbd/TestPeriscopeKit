@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mmI-MU-jkV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHP-Tl-YYx">
                                 <rect key="frame" x="361" y="454" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
@@ -25,19 +28,22 @@
                                     <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xKE-qE-1au"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZX-mS-LAO" customClass="SKView">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZX-mS-LAO" userLabel="AnimationSpace" customClass="SKView">
+                                <rect key="frame" x="59" y="51" width="181" height="387"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="pqC-1r-z0h"/>
+                                    <constraint firstAttribute="width" constant="181" id="pqC-1r-z0h"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="PZX-mS-LAO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Fa7-W5-DDp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PZX-mS-LAO" secondAttribute="bottom" id="GaK-O2-9TM"/>
-                            <constraint firstItem="PZX-mS-LAO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="piX-qD-I9S"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mmI-MU-jkV" secondAttribute="bottom" id="6j2-Sb-2KZ"/>
+                            <constraint firstItem="PZX-mS-LAO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="39" id="Fa7-W5-DDp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="PZX-mS-LAO" secondAttribute="bottom" constant="162" id="GaK-O2-9TM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mmI-MU-jkV" secondAttribute="trailing" constant="-20" id="YUl-y2-u77"/>
+                            <constraint firstItem="mmI-MU-jkV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="lAw-o8-1Fg"/>
+                            <constraint firstItem="mmI-MU-jkV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="nie-Ok-grC"/>
+                            <constraint firstItem="PZX-mS-LAO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="31" id="piX-qD-I9S"/>
                         </constraints>
                     </view>
                     <connections>
@@ -49,4 +55,7 @@
             <point key="canvasLocation" x="197" y="429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cat3.jpg" width="3415" height="2268"/>
+    </resources>
 </document>

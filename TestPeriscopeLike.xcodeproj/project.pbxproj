@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6933A71CE4EE56005ABDD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6933A61CE4EE56005ABDD5 /* main.m */; };
+		CE6933AA1CE4EE56005ABDD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6933A91CE4EE56005ABDD5 /* AppDelegate.m */; };
+		CE6933AD1CE4EE56005ABDD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6933AC1CE4EE56005ABDD5 /* ViewController.m */; };
+		CE6933B01CE4EE56005ABDD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6933AE1CE4EE56005ABDD5 /* Main.storyboard */; };
+		CE6933B21CE4EE56005ABDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6933B11CE4EE56005ABDD5 /* Assets.xcassets */; };
+		CE6933B51CE4EE56005ABDD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6933B31CE4EE56005ABDD5 /* LaunchScreen.storyboard */; };
+		CE6933C01CE4EE56005ABDD5 /* TestPeriscopeLikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6933BF1CE4EE56005ABDD5 /* TestPeriscopeLikeTests.m */; };
+		CE6933CB1CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6933CA1CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.m */; };
+		CE6933DC1CE4F098005ABDD5 /* heart-bubbles.sks in Resources */ = {isa = PBXBuildFile; fileRef = CE6933D81CE4F098005ABDD5 /* heart-bubbles.sks */; };
+		CE6933DD1CE4F098005ABDD5 /* heart-particle.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6933D91CE4F098005ABDD5 /* heart-particle.png */; };
+		CE6933DE1CE4F098005ABDD5 /* heart-particle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6933DA1CE4F098005ABDD5 /* heart-particle@2x.png */; };
+		CE6933DF1CE4F098005ABDD5 /* heart-particle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6933DB1CE4F098005ABDD5 /* heart-particle@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6933BC1CE4EE56005ABDD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE69339A1CE4EE56005ABDD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6933A11CE4EE56005ABDD5;
+			remoteInfo = TestPeriscopeLike;
+		};
+		CE6933C71CE4EE56005ABDD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE69339A1CE4EE56005ABDD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6933A11CE4EE56005ABDD5;
+			remoteInfo = TestPeriscopeLike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE6933A21CE4EE56005ABDD5 /* TestPeriscopeLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPeriscopeLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6933A61CE4EE56005ABDD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6933A81CE4EE56005ABDD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE6933A91CE4EE56005ABDD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE6933AB1CE4EE56005ABDD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE6933AC1CE4EE56005ABDD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE6933AF1CE4EE56005ABDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6933B11CE4EE56005ABDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6933B41CE4EE56005ABDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6933B61CE4EE56005ABDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6933BB1CE4EE56005ABDD5 /* TestPeriscopeLikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPeriscopeLikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6933BF1CE4EE56005ABDD5 /* TestPeriscopeLikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPeriscopeLikeTests.m; sourceTree = "<group>"; };
+		CE6933C11CE4EE56005ABDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6933C61CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPeriscopeLikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6933CA1CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPeriscopeLikeUITests.m; sourceTree = "<group>"; };
+		CE6933CC1CE4EE56005ABDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6933D81CE4F098005ABDD5 /* heart-bubbles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "heart-bubbles.sks"; sourceTree = "<group>"; };
+		CE6933D91CE4F098005ABDD5 /* heart-particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-particle.png"; sourceTree = "<group>"; };
+		CE6933DA1CE4F098005ABDD5 /* heart-particle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-particle@2x.png"; sourceTree = "<group>"; };
+		CE6933DB1CE4F098005ABDD5 /* heart-particle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-particle@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE69339F1CE4EE56005ABDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6933B81CE4EE56005ABDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6933C31CE4EE56005ABDD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6933991CE4EE56005ABDD5 = {
+			isa = PBXGroup;
+			children = (
+				CE6933A41CE4EE56005ABDD5 /* TestPeriscopeLike */,
+				CE6933BE1CE4EE56005ABDD5 /* TestPeriscopeLikeTests */,
+				CE6933C91CE4EE56005ABDD5 /* TestPeriscopeLikeUITests */,
+				CE6933A31CE4EE56005ABDD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6933A31CE4EE56005ABDD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6933A21CE4EE56005ABDD5 /* TestPeriscopeLike.app */,
+				CE6933BB1CE4EE56005ABDD5 /* TestPeriscopeLikeTests.xctest */,
+				CE6933C61CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6933A41CE4EE56005ABDD5 /* TestPeriscopeLike */ = {
+			isa = PBXGroup;
+			children = (
+				CE6933D81CE4F098005ABDD5 /* heart-bubbles.sks */,
+				CE6933D91CE4F098005ABDD5 /* heart-particle.png */,
+				CE6933DA1CE4F098005ABDD5 /* heart-particle@2x.png */,
+				CE6933DB1CE4F098005ABDD5 /* heart-particle@3x.png */,
+				CE6933A81CE4EE56005ABDD5 /* AppDelegate.h */,
+				CE6933A91CE4EE56005ABDD5 /* AppDelegate.m */,
+				CE6933AB1CE4EE56005ABDD5 /* ViewController.h */,
+				CE6933AC1CE4EE56005ABDD5 /* ViewController.m */,
+				CE6933AE1CE4EE56005ABDD5 /* Main.storyboard */,
+				CE6933B11CE4EE56005ABDD5 /* Assets.xcassets */,
+				CE6933B31CE4EE56005ABDD5 /* LaunchScreen.storyboard */,
+				CE6933B61CE4EE56005ABDD5 /* Info.plist */,
+				CE6933A51CE4EE56005ABDD5 /* Supporting Files */,
+			);
+			path = TestPeriscopeLike;
+			sourceTree = "<group>";
+		};
+		CE6933A51CE4EE56005ABDD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6933A61CE4EE56005ABDD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6933BE1CE4EE56005ABDD5 /* TestPeriscopeLikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6933BF1CE4EE56005ABDD5 /* TestPeriscopeLikeTests.m */,
+				CE6933C11CE4EE56005ABDD5 /* Info.plist */,
+			);
+			path = TestPeriscopeLikeTests;
+			sourceTree = "<group>";
+		};
+		CE6933C91CE4EE56005ABDD5 /* TestPeriscopeLikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6933CA1CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.m */,
+				CE6933CC1CE4EE56005ABDD5 /* Info.plist */,
+			);
+			path = TestPeriscopeLikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6933A11CE4EE56005ABDD5 /* TestPeriscopeLike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6933CF1CE4EE56005ABDD5 /* Build configuration list for PBXNativeTarget "TestPeriscopeLike" */;
+			buildPhases = (
+				CE69339E1CE4EE56005ABDD5 /* Sources */,
+				CE69339F1CE4EE56005ABDD5 /* Frameworks */,
+				CE6933A01CE4EE56005ABDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPeriscopeLike;
+			productName = TestPeriscopeLike;
+			productReference = CE6933A21CE4EE56005ABDD5 /* TestPeriscopeLike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6933BA1CE4EE56005ABDD5 /* TestPeriscopeLikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6933D21CE4EE56005ABDD5 /* Build configuration list for PBXNativeTarget "TestPeriscopeLikeTests" */;
+			buildPhases = (
+				CE6933B71CE4EE56005ABDD5 /* Sources */,
+				CE6933B81CE4EE56005ABDD5 /* Frameworks */,
+				CE6933B91CE4EE56005ABDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6933BD1CE4EE56005ABDD5 /* PBXTargetDependency */,
+			);
+			name = TestPeriscopeLikeTests;
+			productName = TestPeriscopeLikeTests;
+			productReference = CE6933BB1CE4EE56005ABDD5 /* TestPeriscopeLikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE6933C51CE4EE56005ABDD5 /* TestPeriscopeLikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6933D51CE4EE56005ABDD5 /* Build configuration list for PBXNativeTarget "TestPeriscopeLikeUITests" */;
+			buildPhases = (
+				CE6933C21CE4EE56005ABDD5 /* Sources */,
+				CE6933C31CE4EE56005ABDD5 /* Frameworks */,
+				CE6933C41CE4EE56005ABDD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6933C81CE4EE56005ABDD5 /* PBXTargetDependency */,
+			);
+			name = TestPeriscopeLikeUITests;
+			productName = TestPeriscopeLikeUITests;
+			productReference = CE6933C61CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE69339A1CE4EE56005ABDD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Colas;
+				TargetAttributes = {
+					CE6933A11CE4EE56005ABDD5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CE6933BA1CE4EE56005ABDD5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CE6933A11CE4EE56005ABDD5;
+					};
+					CE6933C51CE4EE56005ABDD5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CE6933A11CE4EE56005ABDD5;
+					};
+				};
+			};
+			buildConfigurationList = CE69339D1CE4EE56005ABDD5 /* Build configuration list for PBXProject "TestPeriscopeLike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6933991CE4EE56005ABDD5;
+			productRefGroup = CE6933A31CE4EE56005ABDD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6933A11CE4EE56005ABDD5 /* TestPeriscopeLike */,
+				CE6933BA1CE4EE56005ABDD5 /* TestPeriscopeLikeTests */,
+				CE6933C51CE4EE56005ABDD5 /* TestPeriscopeLikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6933A01CE4EE56005ABDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6933DC1CE4F098005ABDD5 /* heart-bubbles.sks in Resources */,
+				CE6933DD1CE4F098005ABDD5 /* heart-particle.png in Resources */,
+				CE6933B51CE4EE56005ABDD5 /* LaunchScreen.storyboard in Resources */,
+				CE6933DF1CE4F098005ABDD5 /* heart-particle@3x.png in Resources */,
+				CE6933DE1CE4F098005ABDD5 /* heart-particle@2x.png in Resources */,
+				CE6933B21CE4EE56005ABDD5 /* Assets.xcassets in Resources */,
+				CE6933B01CE4EE56005ABDD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6933B91CE4EE56005ABDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6933C41CE4EE56005ABDD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE69339E1CE4EE56005ABDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6933AD1CE4EE56005ABDD5 /* ViewController.m in Sources */,
+				CE6933AA1CE4EE56005ABDD5 /* AppDelegate.m in Sources */,
+				CE6933A71CE4EE56005ABDD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6933B71CE4EE56005ABDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6933C01CE4EE56005ABDD5 /* TestPeriscopeLikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6933C21CE4EE56005ABDD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6933CB1CE4EE56005ABDD5 /* TestPeriscopeLikeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6933BD1CE4EE56005ABDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6933A11CE4EE56005ABDD5 /* TestPeriscopeLike */;
+			targetProxy = CE6933BC1CE4EE56005ABDD5 /* PBXContainerItemProxy */;
+		};
+		CE6933C81CE4EE56005ABDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6933A11CE4EE56005ABDD5 /* TestPeriscopeLike */;
+			targetProxy = CE6933C71CE4EE56005ABDD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6933AE1CE4EE56005ABDD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6933AF1CE4EE56005ABDD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6933B31CE4EE56005ABDD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6933B41CE4EE56005ABDD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6933CD1CE4EE56005ABDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE6933CE1CE4EE56005ABDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6933D01CE4EE56005ABDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPeriscopeLike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colas.TestPeriscopeLike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE6933D11CE4EE56005ABDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestPeriscopeLike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colas.TestPeriscopeLike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE6933D31CE4EE56005ABDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPeriscopeLikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colas.TestPeriscopeLikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPeriscopeLike.app/TestPeriscopeLike";
+			};
+			name = Debug;
+		};
+		CE6933D41CE4EE56005ABDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestPeriscopeLikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colas.TestPeriscopeLikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestPeriscopeLike.app/TestPeriscopeLike";
+			};
+			name = Release;
+		};
+		CE6933D61CE4EE56005ABDD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPeriscopeLikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colas.TestPeriscopeLikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestPeriscopeLike;
+			};
+			name = Debug;
+		};
+		CE6933D71CE4EE56005ABDD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestPeriscopeLikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Colas.TestPeriscopeLikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestPeriscopeLike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE69339D1CE4EE56005ABDD5 /* Build configuration list for PBXProject "TestPeriscopeLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6933CD1CE4EE56005ABDD5 /* Debug */,
+				CE6933CE1CE4EE56005ABDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6933CF1CE4EE56005ABDD5 /* Build configuration list for PBXNativeTarget "TestPeriscopeLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6933D01CE4EE56005ABDD5 /* Debug */,
+				CE6933D11CE4EE56005ABDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE6933D21CE4EE56005ABDD5 /* Build configuration list for PBXNativeTarget "TestPeriscopeLikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6933D31CE4EE56005ABDD5 /* Debug */,
+				CE6933D41CE4EE56005ABDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE6933D51CE4EE56005ABDD5 /* Build configuration list for PBXNativeTarget "TestPeriscopeLikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6933D61CE4EE56005ABDD5 /* Debug */,
+				CE6933D71CE4EE56005ABDD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE69339A1CE4EE56005ABDD5 /* Project object */;
+}

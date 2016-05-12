@@ -59,8 +59,8 @@ static CGFloat const kHeight = 18.0f;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.heartBubblesScene = [[CBDHeartBubbleScene alloc] init];//WithSize:self.heartBubbleView.frame.size];
-    [self.heartBubblesScene setScaleMode:SKSceneScaleModeAspectFit];
+    self.heartBubblesScene = [[CBDHeartBubbleScene alloc] initWithSize:self.heartBubbleView.frame.size];
+    [self.heartBubblesScene setScaleMode:SKSceneScaleModeFill];
     self.heartBubblesScene.backgroundColor = [UIColor clearColor];
     
     self.heartBubbleView.allowsTransparency = YES;
